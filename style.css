@@ -1,0 +1,127 @@
+h1{
+    color: blue;
+    font-style: italic;
+}
+
+
+#color1 {
+    color: brown;
+}
+
+#color2 {
+    color: #737ca1;
+}
+
+#color3 {
+    color: rgb(154, 124, 8);
+    /* color: rgba(154, 124, 8, 0.9)*/
+    /* asd */
+}
+
+.flex{
+    display: flex;
+}
+
+.kotak{
+     height: 100px;
+     width: 100px;
+     border-radius: 4px;
+     margin: 5px;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-orange{
+    background-color: #ff8000;
+}
+
+.bg-img{
+    background-image: url("/img.jpg");/* 1 */
+    background-size: cover;
+}
+
+.btn{
+    padding: 4px 16px;
+    color: white;
+    background-color: #be123c;
+    border-radius: 3px;
+    width: max-content;
+}
+
+.btn:hover {
+    background-color: blue;
+    padding: 4px 32px;
+}
+
+.box {
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #fff;
+    color: black;
+    border-radius: 4px;
+}
+
+.border{
+    border: 1px solid black;
+}
+
+.shadow{
+    box-shadow: 2px 2px 4px black;
+}
+
+.card{
+    margin: 10px;
+    padding: 6px;
+    border-radius: 4px;
+    width: 140px;
+}
+.card:hover {
+    background-color: #1e293b;
+    color: white;
+}
+
+
+.name{
+    font-size: 20px;
+}
+
+.card2{
+    background-color: #ffe4e6;
+    border: 1px solid #f43f5e;
+    color: #a81515;
+    padding: 12px;
+}
+
+
+.btn2{
+    background-color: #d1fa35;
+    color: #065f46;
+    margin: 10px;
+    padding: 4px 24px;
+    width: 100px;
+    border-radius: 100px;
+}
+
+.btn2:hover{
+    background-color: #065f46;
+    color: white;
+}
+
+.card3{
+    background-color: #f1f5f9;
+    border: 1px solid #64748b;
+    color: #000000;
+    padding: 10px;
+}
+
+.name2{
+    font: bold;
+}
